@@ -2,6 +2,7 @@
 
 > Simple API with basic auth and a rate limiter
 > You can add, delete, get, and update products
+> It saves the data in MongoDB 
 
 ---
 
