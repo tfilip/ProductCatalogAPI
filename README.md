@@ -43,6 +43,7 @@ http://localhost:3000/product
 Returns all the products in the database
 http://localhost:3000/product/:id 
 Returns the product with the specified id or 404 if not found
+  
 *POST*
 http://localhost:3000/product 
 Creates a new product in the database. 
@@ -64,26 +65,28 @@ for example:
     "category": "electrocasnice"
 }
 ```
-http://localhost:3000/product/:id 
-Returns 404 if not found or 409 if already exists
+http://localhost:3000/product/:id    
+Returns 404 if not found or 409 if already exists 
+   
 *PUT*
-http://localhost:3000/product 
-Returns 405 (Not Allowed)
-http://localhost:3000/product/:id
+http://localhost:3000/product   
+Returns 405 (Not Allowed)  
+http://localhost:3000/product/:id  
  Updates the product
  Returns 200 if the request was good. The body should be like the one from POST. 
- Returns 404 if no product with that id was found
-*Patch*
-http://localhost:3000/product 
-Returns 405 (Not Allowed)
+ Returns 404 if no product with that id was found  
+   
+*PATCH*
+http://localhost:3000/product   
+Returns 405 (Not Allowed)  
 http://localhost:3000/product/:id  
-Updates the product
-Returns 200 if the request was good  . The body should be like the one from POST but. 
-Returns 404 if no product with that id was found
+Updates the product  
+Returns 200 if the request was good. The body should be like the one from POST but you can skip params.   
+Returns 404 if no product with that id was found  
 
-*DELETE*
-http://localhost:3000/product 
-Returns 405 (Not Allowed)
-http://localhost:3000/product/:id 
-Deletes the product
+*DELETE*  
+http://localhost:3000/product  
+Returns 405 (Not Allowed)  
+http://localhost:3000/product/:id  
+Deletes the product  
 Returns 200 if it found the object or 404 if not found
