@@ -1,5 +1,5 @@
 {
-  "name": "2checkoutapi",
+  "name": "product_catalog",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,10 +13,9 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
     "express-rate-limit": "^5.1.3",
-    "express-validation": "^3.0.5",
     "mongoose": "^5.9.18",
-    "passport": "^0.4.1",
     "router": "^1.3.5"
   }
 }

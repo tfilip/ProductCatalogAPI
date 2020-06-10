@@ -1,5 +1,5 @@
 const app = require('express').Router();
-const Product = require('../models/product.model').Product;
+const Product = require('../models/product.model');
 
 //Create a product
 app.post('/', (req, res) => {
